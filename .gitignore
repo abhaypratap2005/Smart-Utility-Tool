@@ -1,0 +1,17 @@
+# Ignore all node_modules folders in subdirectories
+**/node_modules/
+
+# Ignore all .env files in any subdirectory
+**/.env
+
+# Build artifacts
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and logs
+.vscode/
+*.log
